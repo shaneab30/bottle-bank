@@ -17,8 +17,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
 
-
     <link rel="stylesheet" href="css.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
 <body>
@@ -26,7 +30,8 @@
         <!-- Navbar-->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" style="height: 50px; width: 50px;"> Bottle Bank</a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="height: 25px; width: 25px;">
+                    Bottle Bank</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +53,14 @@
                                 aria-expanded="false">
                                 Programs
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Eco Rewards</a></li>
-                            </ul>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <div>Eco Rewards</div>
+                                </a>
+                                <a class="dropdown-item">
+                                    <div>More coming soon!</div>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                     <a class="nav-link" href="about.html">About Us</a>
@@ -61,13 +71,15 @@
         <!-- Homepage -->
         <header class="header">
             <div class="hompage">
-                <h1 class="fw-bolder title">Eco Rewards</h1>
-                <p style="font-size: 15px; font-weight: 500;">Sip, Return, Rewards</p>
-                <a class="btn btn-light" href="#" onclick="scrolltoid('main')">More info!</a>
+                <h1 class="fw-bolder title">Sip, Return, Rewards</h1>
+                <p style="font-size: 15px; font-weight: 500;">Eco Rewards is an environmental incentive program
+                    developed by Bottle Bank, a program that gives the customer incentives to recycle by giving them
+                    rewards for recycling.</p>
+                <a class="btn btn-light" href="#" onclick="scrolltoid('main')">Learn more</a>
 
             </div>
         </header>
-    </div>
+    </div> 
 
     <!-- Main -->
     <div class="main" id="main">
@@ -269,8 +281,7 @@
                         <h4>Our Programs</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="program.html">Eco Rewards</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="mouse.html">Mouse</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="headset.html">Headset</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href=#>More soon!</a></li>
                         </ul>
                     </div>
 
@@ -280,7 +291,7 @@
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i data-feather="twitter"></i></a>
                             <a href="#" class="facebook"><i data-feather="facebook"></i></a>
-                            <a href="https://www.instagram.com/xeesoxee/" class="instagram"><i i
+                            <a href="https://www.instagram.com/bottlebank_lucky7" class="instagram"><i i
                                     data-feather="instagram"></i></a>
                         </div>
                     </div>
@@ -316,6 +327,7 @@
         scaleMobile: 1.00
     })
 </script>
+
 
 
 <script src="js.js"></script>

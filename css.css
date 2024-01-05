@@ -12,11 +12,11 @@ body {
     /* background-image: url(img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
-
 }
 
 .navbar {
     background-color: transparent;
+    z-index: 9;
 }
 
 .navbar .navbar-brand {
@@ -25,6 +25,11 @@ body {
 
 .navbar .nav-link {
     color: #ffffff;
+}
+
+.nav-link.dropdown-toggle.show{
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .header {
